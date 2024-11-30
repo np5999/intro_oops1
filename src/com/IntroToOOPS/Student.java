@@ -1,5 +1,11 @@
 package com.IntroToOOPS;
 
+//--- Access Modifiers ---
+//public : accessible from everywhere
+//default : accessible within SAME PACKAGE
+//protected : accessible within SAME PACKAGE + accessible by CHILD from anywhere (different package or module)
+//private : accessible within SAME CLASS
+
 public class Student {
 
     public String name;
